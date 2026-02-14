@@ -1,0 +1,27 @@
+{
+  
+  
+  // Настройки официального расширения C/C++
+  "C_Cpp.default.compilerPath": "g++",
+  "C_Cpp.default.intelliSenseMode": "gcc-x64",
+  "C_Cpp.default.cStandard": "c17",
+  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.default.includePath": [
+    "${workspaceFolder}/**"
+  ],
+  
+  // Настройки сборки и отладки
+  "cmake.configureOnOpen": false,
+  
+  // Настройки Code Runner (если нужно)
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+    "cpp": "cd $dir && g++ -std=c++17 -Wall -Wextra -g $fileName -o $fileNameWithoutExt.exe && $dir$fileNameWithoutExt.exe"
+  },
+  
+  // Настройки редактора
+  "files.associations": {
+    "*.cpp": "cpp",
+    "*.h": "cpp"
+  }
+}
